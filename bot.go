@@ -144,8 +144,8 @@ var BASSEM *SoundCollection = &SoundCollection{
 	Sounds: []*Sound{
 		createSound("apprend", 50, 250),
 		createSound("chante", 50, 250),
-		createSound("juif1", 25, 250),
-		createSound("juif2", 25, 250),
+		createSound("juif1", 50, 250),
+		createSound("juif2", 50, 250),
 		createSound("spiderman", 50, 250),
 	},
 }
