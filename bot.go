@@ -136,11 +136,26 @@ var BIRTHDAY *SoundCollection = &SoundCollection{
 	},
 }
 
+var BASSEM *SoundCollection = &SoundCollection{
+	Prefix: "bassem",
+	Commands: []string{
+		"!bassem",
+	},
+	Sounds: []*Sound{
+		createSound("apprend", 50, 250),
+		createSound("chante", 50, 250),
+		createSound("juif1", 25, 250),
+		createSound("juif2", 25, 250),
+		createSound("spiderman", 50, 250),
+	},
+}
+
 var COLLECTIONS []*SoundCollection = []*SoundCollection{
 	AIRHORN,
 	KHALED,
 	CENA,
 	BIRTHDAY,
+	BASSEM,
 }
 
 // Create a Sound struct
